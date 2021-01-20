@@ -1,4 +1,4 @@
-package by.cristina.javaClasses;
+package javaClasses;
 
 import java.util.ArrayList;
 

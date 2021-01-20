@@ -1,4 +1,4 @@
-package by.cristina.javaFundamentals;
+package javaFundamentals;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -9,7 +9,7 @@ public class Task3 {
     public static double rnd(double min, double max)
     {
         max = max - min; //max -= min;
-        return (double) (Math.random() * ++max) + min;
+        return (Math.random() * ++max) + min;
     }
 
     public static void main(String[] args) {
@@ -43,27 +43,12 @@ public class Task3 {
 
         PrintToConsole(matrix);
 
-
-        //3. Найти сумму элементов матрицы, расположенных между первым и вторым положительными элементами каждой строки
-
-/*        for (int i=0; i<matrix.length; i++){
-            for (int j=0; j<matrix[i].length; j++) {
-
-                if (j >= 0){
-
-
-
-                }
-
-            }
-        }*/
-
     }
 
     private static void PrintToConsole(double[][] matrix) {
-        for (int i=0; i<matrix.length; i++){
-            for (int j=0; j<matrix[i].length; j++) {
-                System.out.print(matrix[i][j] + "    ");
+        for (double[] doubles : matrix) {
+            for (double aDouble : doubles) {
+                System.out.print(aDouble + "    ");
             }
             System.out.println();
         }

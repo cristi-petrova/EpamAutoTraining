@@ -1,6 +1,4 @@
-package by.cristina.javaFundamentals;
-
-import java.util.Scanner;
+package javaFundamentals;
 
 public class Task1b {
 

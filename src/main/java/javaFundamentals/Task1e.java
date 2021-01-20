@@ -1,4 +1,4 @@
-package by.cristina.javaFundamentals;
+package javaFundamentals;
 
 import java.time.Month;
 import java.time.format.TextStyle;
